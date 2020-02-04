@@ -1,0 +1,23 @@
+{
+  "name": "summercamp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "config": "^3.2.5",
+    "knex": "^0.20.8",
+    "koa": "^2.11.0",
+    "koa-bodyparser": "^4.2.1",
+    "koa-cors": "0.0.16",
+    "koa-router": "^8.0.6",
+    "koa-session": "^5.13.1",
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.2"
+  }
+}
